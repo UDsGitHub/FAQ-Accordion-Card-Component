@@ -1,0 +1,40 @@
+<details class="accordion-item">
+            <summary class="accordion-item-header">
+              What is the maximum file upload size?
+            </summary>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </div>
+            </div>
+          </details>
+          <details class="accordion-item">
+            <summary class="accordion-item-header">How do I reset my password?</summary>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </div>
+            </div>
+          </details>
+          <details class="accordion-item">
+            <summary class="accordion-item-header">Can I cancel my subscription?</summary>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </div>
+            </div>
+          </details>
+          <details class="accordion-item">
+            <summary class="accordion-item-header">
+              Do you provide additional support?
+            </summary>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </div>
+            </div>
+          </details>
