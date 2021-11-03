@@ -22,7 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Kumbh Sans", sans-serif;
-  padding: 6rem 0 2rem 0;
+  padding: 8rem 0 4rem 0;
 }
 
 .card {
@@ -35,7 +35,8 @@ body {
   background-size: 14rem;
   background-position: center 0%;
   border-radius: 20px;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
+  box-shadow: 0 15px 50px 0px hsla(238, 29%, 16%, .5);
 }
 
 .card-box {
@@ -80,14 +81,17 @@ h1 {
 }
 .accordion-item-header {
   font-size: 0.875rem;
-  color: var(--darkgrayblue);
+  font-weight: 400;
+  color: var(--verydarkgrayblue);
   margin: 1rem 0;
-  /* position: relative; */
   display: flex;
   justify-content: space-between;
 }
+.accordion-item-header:hover{
+  color: var(--softred);
+  transition: 0.2s;
+}
 .accordion-item-header::after {
-  /* position: absolute; */
   content: url("./images/icon-arrow-down.svg");
   right: 1rem;
   transition: transform 0.2s ease-in-out;
@@ -105,7 +109,7 @@ h1 {
 }
 /* Active States */
 .accordion-item-header.active{
-  color: var(--verydarkgrayblue);
+  font-weight: 700;
 }
 
 .accordion-item-header.active::after {
